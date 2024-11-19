@@ -5,8 +5,8 @@ from django.http import HttpResponse
 
 def library_root(request):
     return HttpResponse('''
-    <a href="посилання на яке відправить користувача">Текст на який треба натиснути</a>
+    <a href="/">Домашня сторінка</a></li>
+    <a href="/authors/">Сторінка авторів</a>
     <a href="/books/">Сторінка книг</a>
-    <a href="/">Домашня сторінка</a>
     <a href="/orders/done/">Виконані замовлення</a>
 ''')
